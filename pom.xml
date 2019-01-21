@@ -6,7 +6,11 @@
 
     <groupId>com.chenminhua</groupId>
     <artifactId>spring_tut</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>bootstrap-example</module>
+    </modules>
 
 
     <parent>
@@ -23,5 +27,24 @@
             <version>2.0.2.RELEASE</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <!--spring boot maven插件，将应用直接打包成可以直接运行的jar-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+            <!-- 使用maven 编译时，指定jdk版本. -->
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
