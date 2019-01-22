@@ -1,0 +1,20 @@
+detectDeadLock: false
+
+#server:
+#  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging.level.org.springframework.web: DEBUG
+logging.level.org.hibernate: ERROR
+
+# 定制的info信息
+info:
+  app:
+    name: spring sample application
+    description: this is my first spring boot app
+    version: 1.0.0
