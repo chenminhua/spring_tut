@@ -12,6 +12,12 @@
         <module>bootstrap-example</module>
         <module>undertow-example</module>
         <module>kotlinexample</module>
+        <module>fastjsonexp</module>
+        <module>prometheusexp</module>
+        <module>chenstarter</module>
+        <module>getAllBeans</module>
+        <module>retrofit_feign_exp</module>
+        <module>kafkaexp</module>
     </modules>
 
 

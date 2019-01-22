@@ -9,3 +9,6 @@ spring-boot-starter-data-jpa
     
     
 [starter list](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters)
+
+
+[custom starter](https://www.baeldung.com/spring-boot-custom-starter)

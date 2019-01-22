@@ -1,0 +1,10 @@
+kafka
+mybatis
+herbinate
+redis
+mongo
+hbase
+elasticsearch
+retrofit
+feign
+logging
