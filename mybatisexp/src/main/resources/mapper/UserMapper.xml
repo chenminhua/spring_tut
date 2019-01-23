@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.chenminhua.mybatisexp.dao.UserMapper">
+    <resultMap id="UserDO" type="com.chenminhua.mybatisexp.UserDO">
+        <result property="id" column="id"/>
+        <result property="age" column="age"/>
+        <result property="name" column="name"/>
+    </resultMap>
+
+    <select id="listUser" resultMap="UserDO">
+        SELECT * FROM `user` limit 10;
+    </select>
+
+    <insert id="insert">
+        insert into `user`
+          (`age`, `name`)
+        VALUES
+          (#{age}, #{name});
+    </insert>
+</mapper>

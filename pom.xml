@@ -18,6 +18,9 @@
         <module>getAllBeans</module>
         <module>retrofit_feign_exp</module>
         <module>kafkaexp</module>
+        <module>mybatisexp</module>
+        <module>mongoexp</module>
+        <module>redisexp</module>
     </modules>
 
 

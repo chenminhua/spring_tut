@@ -1,0 +1,12 @@
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  type-aliases-package: com.chenminhua.mybatisexp.dao
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&useLegacyDatetimeCode=false&allowMultiQueries=true
+    username: root
+    password: admin
+    druid:
+      initial-size: 5
