@@ -21,6 +21,7 @@
         <module>mybatisexp</module>
         <module>mongoexp</module>
         <module>redisexp</module>
+        <module>elasticsearchexp</module>
     </modules>
 
 
