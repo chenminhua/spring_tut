@@ -23,6 +23,8 @@
         <module>redisexp</module>
         <module>elasticsearchexp</module>
         <module>hbaseexp</module>
+        <module>hadoopexp</module>
+        <module>aopexp</module>
     </modules>
 
 
