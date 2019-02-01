@@ -25,6 +25,7 @@
         <module>hbaseexp</module>
         <module>hadoopexp</module>
         <module>aopexp</module>
+        <module>jpadataexp</module>
     </modules>
 
 
@@ -46,6 +47,12 @@
                     <artifactId>logback-classic</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.25</version>
         </dependency>
     </dependencies>
 
