@@ -26,6 +26,7 @@
         <module>hadoopexp</module>
         <module>aopexp</module>
         <module>jpadataexp</module>
+        <module>neo4jdemo</module>
     </modules>
 
 
