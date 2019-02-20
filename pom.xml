@@ -27,6 +27,9 @@
         <module>aopexp</module>
         <module>jpadataexp</module>
         <module>neo4jdemo</module>
+        <module>resttemplatedemo</module>
+        <module>hystrixdemo</module>
+        <module>reactivespring</module>
     </modules>
 
 
