@@ -30,6 +30,7 @@
         <module>resttemplatedemo</module>
         <module>hystrixdemo</module>
         <module>reactivespring</module>
+        <module>bootiful-testing</module>
     </modules>
 
 
