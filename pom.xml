@@ -33,6 +33,7 @@
         <module>bootiful-testing</module>
         <module>jax-rs</module>
         <module>dashboard</module>
+        <module>zipkindemo</module>
     </modules>
 
 
