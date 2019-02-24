@@ -32,6 +32,7 @@
         <module>reactivespring</module>
         <module>bootiful-testing</module>
         <module>jax-rs</module>
+        <module>dashboard</module>
     </modules>
 
 
