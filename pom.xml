@@ -35,6 +35,9 @@
         <module>dashboard</module>
         <module>zipkindemo</module>
         <module>EnableDemo</module>
+        <module>util-examples</module>
+        <module>test</module>
+        <module>awarebeanexp</module>
     </modules>
 
 
