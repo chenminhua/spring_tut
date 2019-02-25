@@ -34,6 +34,7 @@
         <module>jax-rs</module>
         <module>dashboard</module>
         <module>zipkindemo</module>
+        <module>EnableDemo</module>
     </modules>
 
 
