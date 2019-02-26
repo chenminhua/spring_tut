@@ -39,6 +39,8 @@
         <module>awarebeanexp</module>
         <module>streamamqp</module>
         <module>zuulgateway</module>
+        <module>micrometer</module>
+        <module>reactive-client</module>
     </modules>
 
 
