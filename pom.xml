@@ -36,8 +36,9 @@
         <module>zipkindemo</module>
         <module>EnableDemo</module>
         <module>util-examples</module>
-        <module>test</module>
         <module>awarebeanexp</module>
+        <module>streamamqp</module>
+        <module>zuulgateway</module>
     </modules>
 
 
