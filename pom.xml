@@ -41,6 +41,8 @@
         <module>zuulgateway</module>
         <module>micrometer</module>
         <module>reactive-client</module>
+        <module>couchdbdemo</module>
+        <module>redis</module>
     </modules>
 
 
