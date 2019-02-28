@@ -1,0 +1,9 @@
+<head>
+    <title>Redis orders</title>
+</head>
+<body>
+    <div th:each="o: ${orders}">
+        <span th:text="${o.id}">id</span>
+        <span th:text="${o.when}">date</span>
+    </div>
+</body>
