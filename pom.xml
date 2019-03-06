@@ -48,6 +48,7 @@
         <module>demo</module>
         <module>rabbitmqdemo</module>
         <module>kafkastream</module>
+        <module>config101</module>
     </modules>
 
 
