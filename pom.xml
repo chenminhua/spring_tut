@@ -43,6 +43,11 @@
         <module>reactive-client</module>
         <module>couchdbdemo</module>
         <module>redis</module>
+        <module>buildplugindemo</module>
+        <module>demo</module>
+        <module>demo</module>
+        <module>rabbitmqdemo</module>
+        <module>kafkastream</module>
     </modules>
 
 

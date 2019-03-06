@@ -34,7 +34,8 @@ public class ConsumerApp {
         return IntegrationFlows
                 .from(c.producer())
                 .handle(String.class, (payload, headers) -> {
-                    logger.info( "new message: "+ payload);
+                    System.out.println("new message" + payload);
+                    //logger.info( "new message: "+ payload);
                     return null;
                 })
                 .get();
