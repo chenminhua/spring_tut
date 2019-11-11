@@ -49,6 +49,8 @@
         <module>rabbitmqdemo</module>
         <module>kafkastream</module>
         <module>config101</module>
+        <module>batchdemo</module>
+        <module>streamplay</module>
     </modules>
 
 
