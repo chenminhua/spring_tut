@@ -1,6 +1,6 @@
 #kafka
 # 指定kafka 代理地址，可以多个
-spring.kafka.bootstrap-servers: 13.76.198.223:9092
+spring.kafka.bootstrap-servers: 172.168.7.1:9092
   # 指定listener 容器中的线程数，用于提高并发量
 spring.kafka.listener.concurrency: 3
   # 每次批量发送消息的数量

@@ -51,6 +51,7 @@
         <module>config101</module>
         <module>batchdemo</module>
         <module>streamplay</module>
+        <module>zkdemo</module>
     </modules>
 
 
