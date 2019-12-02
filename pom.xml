@@ -52,6 +52,7 @@
         <module>batchdemo</module>
         <module>streamplay</module>
         <module>zkdemo</module>
+        <module>kclient</module>
     </modules>
 
 
