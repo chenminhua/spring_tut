@@ -44,8 +44,6 @@
         <module>couchdbdemo</module>
         <module>redis</module>
         <module>buildplugindemo</module>
-        <module>demo</module>
-        <module>demo</module>
         <module>rabbitmqdemo</module>
         <module>kafkastream</module>
         <module>config101</module>
@@ -53,6 +51,7 @@
         <module>streamplay</module>
         <module>zkdemo</module>
         <module>kclient</module>
+        <module>jio</module>
     </modules>
 
 

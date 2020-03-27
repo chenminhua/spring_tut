@@ -23,6 +23,12 @@ public class DemoApp {
         return new BoomFactoryBean();
     }
 
+    @Bean
+    Foo foo() throws Exception {
+        Foo foo = new Foo();
+        return foo;
+    }
+
     public static class BoomFactoryBean implements FactoryBean<Boom> {
 
         private boolean preferOne = true;
